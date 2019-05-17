@@ -1,0 +1,32 @@
+body {
+  background:url(img/bg2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+section {
+	margin-top: 30px;
+}
+
+h4, label {
+	color: white;
+}
+
+
+
+
+/*for small screen*/
+@media only screen and (min-width: 700px) {
+
+	nav ul {
+		text-align: right;
+	}
+	nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		text-align: left;
+	}
+
+}
